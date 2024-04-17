@@ -39,7 +39,6 @@ def continuously_read_window(img):
         
         time.sleep(1)
 
-# Specify the exact window title or part of it
 _, id = get_image('Ascension')
 bbox = win32gui.GetWindowRect(id)
 img = ImageGrab.grab((1185, 825, 1700, 1000))
